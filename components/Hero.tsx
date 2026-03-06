@@ -30,8 +30,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.35 }}
           className="mt-6 text-lg sm:text-xl text-white/70 max-w-2xl mx-auto leading-relaxed"
         >
-          We build dedicated AI systems that transform creative IP into liquid
-          content. Distributed wider, across more platforms, to more audiences.
+          We build dedicated AI pipelines that transform creative intent and
+          work into content. Distribute across more platforms, to more audiences.
         </motion.p>
 
         <motion.div
