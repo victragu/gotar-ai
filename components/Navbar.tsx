@@ -56,9 +56,7 @@ export default function Navbar() {
         </div>
 
         <a
-          href="https://calendly.com"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="mailto:victor@targostories.com"
           className="hidden md:inline-flex items-center gap-2 rounded-full bg-white text-black text-sm font-medium px-5 py-2 hover:bg-white/90 transition-colors"
         >
           Get in touch

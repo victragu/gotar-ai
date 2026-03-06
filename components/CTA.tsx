@@ -16,9 +16,7 @@ export default function CTA() {
 
         <AnimatedSection delay={0.15}>
           <a
-            href="https://calendly.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:victor@targostories.com"
             className="inline-flex items-center gap-2 mt-8 rounded-full bg-white text-black text-sm font-medium px-8 py-3.5 hover:bg-white/90 transition-colors"
           >
             Connect with us

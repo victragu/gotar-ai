@@ -20,8 +20,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1]"
         >
-          <span className="block">Proprietary AI pipelines.</span>
-          <span className="block">Turning content into products.</span>
+          AI amplifying creativity.
         </motion.h1>
 
         <motion.p
@@ -30,8 +29,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.35 }}
           className="mt-6 text-lg sm:text-xl text-white/70 max-w-2xl mx-auto leading-relaxed"
         >
-          We build dedicated AI pipelines that transform creative intent and
-          work into content. Distribute across more platforms, to more audiences.
+          We build dedicated AI pipelines that transform creative intent into
+          content. Distribute across more platforms, to more audiences.
         </motion.p>
 
         <motion.div
@@ -47,9 +46,7 @@ export default function Hero() {
             See how it works
           </a>
           <a
-            href="https://calendly.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:victor@targostories.com"
             className="rounded-full bg-white text-black text-sm font-medium px-7 py-3 hover:bg-white/90 transition-colors"
           >
             Get in touch

@@ -8,7 +8,7 @@ const productions = [
     title: "Time Travel",
     type: "Immersive Series",
     description:
-      "A proprietary pipeline that ingests historical archives, structures narrative arcs, and outputs immersive 3D episodes. Fully automated.",
+      "A proprietary pipeline that ingests historical archives, structures narrative arcs, and outputs immersive 3D episodes.",
     tags: ["Archives \u2192 3D", "Storytelling", "Automated Editing"],
     image: "/time-travel.png",
   },
