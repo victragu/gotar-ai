@@ -19,7 +19,7 @@ export default function Problem() {
 
         <AnimatedSection delay={0.15}>
           <p className="mt-6 text-lg text-muted max-w-2xl leading-relaxed">
-            A film is not just a film. It&apos;s a universe. Gotar is the
+            <span className="font-[family-name:var(--font-source-code)] font-extralight">gotar</span> is the
             proprietary AI architecture that powers our productions. It lets
             content flow across platforms, formats, and audiences. More
             distribution, more reach, more impact.
@@ -51,7 +51,7 @@ export default function Problem() {
 
             <div className="rounded-2xl border border-accent/30 bg-accent/5 p-8">
               <div className="text-xs font-medium tracking-widest uppercase text-accent mb-4">
-                With Gotar
+                With <span className="font-[family-name:var(--font-source-code)] font-extralight normal-case">gotar</span>
               </div>
               <h3 className="text-xl font-semibold mb-3">Liquid content.</h3>
               <ul className="space-y-2 text-muted text-sm">

@@ -66,11 +66,10 @@ export default function Approach() {
         </AnimatedSection>
 
         <AnimatedSection delay={0.25}>
-          <div className="mt-14 grid md:grid-cols-3 gap-6">
+          <div className="mt-14 grid md:grid-cols-2 gap-6">
             {[
               { title: "Structure.", desc: "Map content DNA into a modular IP architecture ready for automation." },
               { title: "Automate.", desc: "Custom-trained pipeline transforms a single input into platform-ready outputs." },
-              { title: "Scale.", desc: "Deploy across platforms, languages, and formats. One pipeline, unlimited reach." },
             ].map((p) => (
               <div key={p.title}>
                 <h3 className="text-lg font-semibold mb-2">{p.title}</h3>
