@@ -2,8 +2,8 @@
 
 import AnimatedSection from "./AnimatedSection";
 
-const inputs = ["Film", "Podcast", "Archives", "Live Event"];
-const outputs = ["Video Series", "3D Experience", "Social", "Podcast"];
+const inputs = ["Original Edits", "Source Materials", "Storylines", "Artwork"];
+const outputs = ["Expanded Films", "Additional Episodes", "Suggested Edits", "Multi-platform Content"];
 
 export default function Approach() {
   return (
@@ -19,8 +19,9 @@ export default function Approach() {
             <span className="text-spectrum">Built on ground-truth content.</span>
           </h2>
           <p className="mt-5 text-muted max-w-2xl leading-relaxed">
-            Each pipeline is custom-engineered and trained on production IP.
-            One input, multiple platform-ready outputs. Automated end to end.
+            <span className="font-[family-name:var(--font-source-code)] font-extralight">gotar</span> is
+            a suite of AI pipelines, custom-engineered and trained on production
+            IP to scale the production of content in the AI era.
           </p>
         </AnimatedSection>
 

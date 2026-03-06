@@ -20,7 +20,7 @@ export default function Problem() {
         <AnimatedSection delay={0.15}>
           <p className="mt-6 text-lg text-muted max-w-2xl leading-relaxed">
             <span className="font-[family-name:var(--font-source-code)] font-extralight">gotar</span> is the
-            proprietary AI architecture that powers our productions. It lets
+            proprietary AI architecture that powers our distribution. It lets
             content flow across platforms, formats, and audiences. More
             distribution, more reach, more impact.
           </p>

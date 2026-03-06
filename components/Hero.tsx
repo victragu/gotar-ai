@@ -31,7 +31,7 @@ export default function Hero() {
           className="mt-6 text-lg sm:text-xl text-white/70 max-w-2xl mx-auto leading-relaxed"
         >
           We build dedicated AI pipelines that transform creative intent into
-          content. Distribute across more platforms, to more audiences.
+          content. Scale your productions, distribute across more platforms.
         </motion.p>
 
         <motion.div
