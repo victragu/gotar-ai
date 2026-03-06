@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0a0a0a;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Spectrum gradient - matches the brand */
+.text-spectrum {
+  background: linear-gradient(90deg, #d4822b, #4dbd5e, #2abfbf, #4d8be6, #5b3dd4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.border-spectrum {
+  border-image: linear-gradient(90deg, #5b3dd4, #4d8be6, #2abfbf, #4dbd5e, #d4822b) 1;
+}
+
+.bg-spectrum-subtle {
+  background: linear-gradient(135deg,
+    rgba(91, 61, 212, 0.08),
+    rgba(77, 139, 230, 0.06),
+    rgba(42, 191, 191, 0.05),
+    rgba(77, 189, 94, 0.04),
+    rgba(212, 130, 43, 0.06)
+  );
+}
+
+/* Animated grid for hero */
+.animated-grid {
+  background-image:
+    linear-gradient(rgba(77, 139, 230, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(77, 139, 230, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  animation: grid-move 20s linear infinite;
+}
+
+@keyframes grid-move {
+  0% { background-position: 0 0; }
+  100% { background-position: 60px 60px; }
+}
+
+/* Shimmer for cards */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-border {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(77, 139, 230, 0.12) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 6s ease-in-out infinite;
+}
